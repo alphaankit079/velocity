@@ -1,16 +1,132 @@
-# React + Vite
+# VELOCITY — Beyond The Limits 🏎️
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A cinematic luxury automotive experience built with **React, Tailwind CSS, GSAP, and Three.js**. VELOCITY brings the world of high-performance supercars to life through immersive animations, interactive 3D visuals, and a premium dark interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Website:** Add your Vercel deployment URL here
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Cinematic Preloader** — Animated loading experience with a progress counter.
+- **Premium Hero Section** — High-impact automotive visuals and typography.
+- **Interactive 3D Showroom** — Explore a supercar in an interactive 3D environment.
+- **Luxury Car Collection** — Discover high-performance supercars.
+- **Performance Showcase** — Explore powerful automotive specifications.
+- **Race Mode** — Interactive racing dashboard with RPM, gears, speed, and engine sound.
+- **Cinematic Gallery** — A visual showcase of automotive design.
+- **Custom Cursor** — Smooth cursor interactions and magnetic effects.
+- **GSAP Animations** — Smooth transitions and scroll-based animations.
+- **Responsive Design** — Optimized for mobile, tablet, and desktop.
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| Vite | Development and build tool |
+| Tailwind CSS | Styling and responsive layouts |
+| GSAP | Advanced animations |
+| Three.js | 3D rendering |
+| React Three Fiber | 3D integration with React |
+| Drei | 3D helpers and controls |
+| Lenis | Smooth scrolling |
+| Lucide React | Icons |
+
+## 📂 Project Structure
+
+```text
+velocity/
+├── public/
+│   ├── images/
+│   ├── audio/
+│   └── models/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Preloader.jsx
+│   │   └── CustomCursor.jsx
+│   ├── 3d/
+│   │   ├── CarModel.jsx
+│   │   └── CarScene.jsx
+│   ├── sections/
+│   │   ├── Hero.jsx
+│   │   ├── Showroom.jsx
+│   │   ├── Collection.jsx
+│   │   ├── Performance.jsx
+│   │   ├── RaceMode.jsx
+│   │   ├── Gallery.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/alphaankit079/velocity.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd velocity
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal.
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+## 🎨 Design Direction
+
+- **Brand:** VELOCITY
+- **Tagline:** Beyond The Limits.
+- **Theme:** Luxury Automotive
+- **Primary Colors:** Obsidian Black, Metallic Silver, Racing Red
+- **Visual Inspiration:** Lamborghini and McLaren supercars
+
+## 📱 Responsive Experience
+
+Designed to deliver a consistent experience across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+## 👨‍💻 Developer
+
+**Ankit Kumar**
+
+- GitHub: [@alphaankit079](https://github.com/alphaankit079)
+- Portfolio: [My Portfolio](https://my-portfolio-nmit.vercel.app/)
+
+---
+
+<p align="center">
+  <strong>VELOCITY — Beyond The Limits.</strong><br/>
+  Built with passion for performance, design, and technology.
+</p>
