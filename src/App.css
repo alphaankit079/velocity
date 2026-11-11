@@ -1,0 +1,61 @@
+
+/* ================================
+   VELOCITY - APP STYLES
+================================ */
+
+/* Main application wrapper */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  overflow-x: clip;
+}
+
+/* Main content */
+
+main {
+  width: 100%;
+  position: relative;
+}
+
+/* Section defaults */
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+/* Responsive media */
+
+img,
+video,
+canvas {
+  max-width: 100%;
+}
+
+/* Prevent grid and flex children from
+   forcing horizontal overflow */
+
+.grid > *,
+.flex > * {
+  min-width: 0;
+}
+
+/* Mobile optimization */
+
+@media (max-width: 640px) {
+  #root {
+    min-width: 320px;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
